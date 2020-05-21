@@ -5,6 +5,8 @@
  */
 package proyecto_integrador_crud;
 
+import proyecto_integrador_crud.gui.MainFrame;
+
 /**
  *
  * @author jonatan
@@ -15,7 +17,8 @@ public class Proyecto_Integrador_CRUD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        MainFrame m= new MainFrame();
+        m.setVisible(true);
     }
     
 }
